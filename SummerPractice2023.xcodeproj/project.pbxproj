@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5C0087E2A582A5E0087E3D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C0087D2A582A5E0087E3D6 /* AppDelegate.swift */; };
+		A5C008802A582A5E0087E3D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C0087F2A582A5E0087E3D6 /* SceneDelegate.swift */; };
+		A5C008822A582A5E0087E3D6 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C008812A582A5E0087E3D6 /* CalendarViewController.swift */; };
+		A5C008872A582A5F0087E3D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5C008862A582A5F0087E3D6 /* Assets.xcassets */; };
+		A5C0088A2A582A5F0087E3D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C008882A582A5F0087E3D6 /* LaunchScreen.storyboard */; };
+		A5C008962A582BE60087E3D6 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C008952A582BE60087E3D6 /* AppCoordinator.swift */; };
+		A5C008982A582C0D0087E3D6 /* AbstractCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C008972A582C0D0087E3D6 /* AbstractCoordinator.swift */; };
+		A5C0089B2A583AA60087E3D6 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C0089A2A583AA60087E3D6 /* NetworkService.swift */; };
+		A5C0089D2A583B0C0087E3D6 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C0089C2A583B0C0087E3D6 /* Parser.swift */; };
+		A5C008A02A583C600087E3D6 /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C0089F2A583C600087E3D6 /* EventModel.swift */; };
+		A5C008A22A5855870087E3D6 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C008A12A5855870087E3D6 /* DataManager.swift */; };
+		A5C008A62A585A760087E3D6 /* NewEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C008A52A585A760087E3D6 /* NewEventViewController.swift */; };
+		A5C008A92A59BA0F0087E3D6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C008A82A59BA0F0087E3D6 /* DetailViewController.swift */; };
+		A5C008AB2A59C3A90087E3D6 /* file.json in Resources */ = {isa = PBXBuildFile; fileRef = A5C008AA2A59C3A90087E3D6 /* file.json */; };
+		A5C008B62A59C86E0087E3D6 /* SummerPractice2023Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C008B52A59C86E0087E3D6 /* SummerPractice2023Tests.swift */; };
+		A5C008BF2A5ACCCA0087E3D6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A5C008BE2A5ACCCA0087E3D6 /* .gitignore */; };
+		D3D7A1D0E67A37DD6122D6C0 /* Pods_SummerPractice2023.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C2E2C68A5E138E6A3B43AF /* Pods_SummerPractice2023.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5C008B72A59C86E0087E3D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5C008722A582A5E0087E3D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5C008792A582A5E0087E3D6;
+			remoteInfo = SummerPractice2023;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1130ADC1597F4977332E7C9D /* Pods-SummerPractice2023.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SummerPractice2023.debug.xcconfig"; path = "Target Support Files/Pods-SummerPractice2023/Pods-SummerPractice2023.debug.xcconfig"; sourceTree = "<group>"; };
+		29C2E2C68A5E138E6A3B43AF /* Pods_SummerPractice2023.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SummerPractice2023.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7647EEBEFB952C4CE8459408 /* Pods-SummerPractice2023.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SummerPractice2023.release.xcconfig"; path = "Target Support Files/Pods-SummerPractice2023/Pods-SummerPractice2023.release.xcconfig"; sourceTree = "<group>"; };
+		A5C0087A2A582A5E0087E3D6 /* SummerPractice2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SummerPractice2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5C0087D2A582A5E0087E3D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5C0087F2A582A5E0087E3D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A5C008812A582A5E0087E3D6 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		A5C008862A582A5F0087E3D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5C008892A582A5F0087E3D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5C0088B2A582A5F0087E3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5C008952A582BE60087E3D6 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		A5C008972A582C0D0087E3D6 /* AbstractCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractCoordinator.swift; sourceTree = "<group>"; };
+		A5C0089A2A583AA60087E3D6 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		A5C0089C2A583B0C0087E3D6 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		A5C0089F2A583C600087E3D6 /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
+		A5C008A12A5855870087E3D6 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		A5C008A52A585A760087E3D6 /* NewEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEventViewController.swift; sourceTree = "<group>"; };
+		A5C008A82A59BA0F0087E3D6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A5C008AA2A59C3A90087E3D6 /* file.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = file.json; sourceTree = "<group>"; };
+		A5C008B32A59C86E0087E3D6 /* SummerPractice2023Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummerPractice2023Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5C008B52A59C86E0087E3D6 /* SummerPractice2023Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerPractice2023Tests.swift; sourceTree = "<group>"; };
+		A5C008BE2A5ACCCA0087E3D6 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5C008772A582A5E0087E3D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D7A1D0E67A37DD6122D6C0 /* Pods_SummerPractice2023.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5C008B02A59C86E0087E3D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92A439A49C9839908EB8923B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1130ADC1597F4977332E7C9D /* Pods-SummerPractice2023.debug.xcconfig */,
+				7647EEBEFB952C4CE8459408 /* Pods-SummerPractice2023.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A5C008712A582A5E0087E3D6 = {
+			isa = PBXGroup;
+			children = (
+				A5C008BE2A5ACCCA0087E3D6 /* .gitignore */,
+				A5C0087C2A582A5E0087E3D6 /* SummerPractice2023 */,
+				A5C008B42A59C86E0087E3D6 /* SummerPractice2023Tests */,
+				A5C0087B2A582A5E0087E3D6 /* Products */,
+				92A439A49C9839908EB8923B /* Pods */,
+				C57F75832797261550160D77 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A5C0087B2A582A5E0087E3D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5C0087A2A582A5E0087E3D6 /* SummerPractice2023.app */,
+				A5C008B32A59C86E0087E3D6 /* SummerPractice2023Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5C0087C2A582A5E0087E3D6 /* SummerPractice2023 */ = {
+			isa = PBXGroup;
+			children = (
+				A5C0089E2A583B4F0087E3D6 /* Models */,
+				A5C008992A583A910087E3D6 /* Services */,
+				A5C008942A582B070087E3D6 /* Resources */,
+				A5C008932A582AF50087E3D6 /* Coordinators */,
+				A5C008922A582AE30087E3D6 /* Modules */,
+				A5C008912A582A6A0087E3D6 /* Application */,
+				A5C008AA2A59C3A90087E3D6 /* file.json */,
+			);
+			path = SummerPractice2023;
+			sourceTree = "<group>";
+		};
+		A5C008912A582A6A0087E3D6 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A5C0087D2A582A5E0087E3D6 /* AppDelegate.swift */,
+				A5C0087F2A582A5E0087E3D6 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A5C008922A582AE30087E3D6 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A5C008A72A59BA000087E3D6 /* DetailModule */,
+				A5C008A42A585A520087E3D6 /* NewEventModule */,
+				A5C008A32A585A3B0087E3D6 /* CalendarModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A5C008932A582AF50087E3D6 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				A5C008952A582BE60087E3D6 /* AppCoordinator.swift */,
+				A5C008972A582C0D0087E3D6 /* AbstractCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		A5C008942A582B070087E3D6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A5C008862A582A5F0087E3D6 /* Assets.xcassets */,
+				A5C008882A582A5F0087E3D6 /* LaunchScreen.storyboard */,
+				A5C0088B2A582A5F0087E3D6 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A5C008992A583A910087E3D6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A5C0089A2A583AA60087E3D6 /* NetworkService.swift */,
+				A5C0089C2A583B0C0087E3D6 /* Parser.swift */,
+				A5C008A12A5855870087E3D6 /* DataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A5C0089E2A583B4F0087E3D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5C0089F2A583C600087E3D6 /* EventModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A5C008A32A585A3B0087E3D6 /* CalendarModule */ = {
+			isa = PBXGroup;
+			children = (
+				A5C008812A582A5E0087E3D6 /* CalendarViewController.swift */,
+			);
+			path = CalendarModule;
+			sourceTree = "<group>";
+		};
+		A5C008A42A585A520087E3D6 /* NewEventModule */ = {
+			isa = PBXGroup;
+			children = (
+				A5C008A52A585A760087E3D6 /* NewEventViewController.swift */,
+			);
+			path = NewEventModule;
+			sourceTree = "<group>";
+		};
+		A5C008A72A59BA000087E3D6 /* DetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				A5C008A82A59BA0F0087E3D6 /* DetailViewController.swift */,
+			);
+			path = DetailModule;
+			sourceTree = "<group>";
+		};
+		A5C008B42A59C86E0087E3D6 /* SummerPractice2023Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A5C008B52A59C86E0087E3D6 /* SummerPractice2023Tests.swift */,
+			);
+			path = SummerPractice2023Tests;
+			sourceTree = "<group>";
+		};
+		C57F75832797261550160D77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29C2E2C68A5E138E6A3B43AF /* Pods_SummerPractice2023.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5C008792A582A5E0087E3D6 /* SummerPractice2023 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5C0088E2A582A5F0087E3D6 /* Build configuration list for PBXNativeTarget "SummerPractice2023" */;
+			buildPhases = (
+				0FBED999EA1625C1A956A08F /* [CP] Check Pods Manifest.lock */,
+				A5C008762A582A5E0087E3D6 /* Sources */,
+				A5C008772A582A5E0087E3D6 /* Frameworks */,
+				A5C008782A582A5E0087E3D6 /* Resources */,
+				585AA66E7323662BAEF78C75 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SummerPractice2023;
+			productName = SummerPractice2023;
+			productReference = A5C0087A2A582A5E0087E3D6 /* SummerPractice2023.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5C008B22A59C86E0087E3D6 /* SummerPractice2023Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5C008B92A59C86E0087E3D6 /* Build configuration list for PBXNativeTarget "SummerPractice2023Tests" */;
+			buildPhases = (
+				A5C008AF2A59C86E0087E3D6 /* Sources */,
+				A5C008B02A59C86E0087E3D6 /* Frameworks */,
+				A5C008B12A59C86E0087E3D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5C008B82A59C86E0087E3D6 /* PBXTargetDependency */,
+			);
+			name = SummerPractice2023Tests;
+			productName = SummerPractice2023Tests;
+			productReference = A5C008B32A59C86E0087E3D6 /* SummerPractice2023Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5C008722A582A5E0087E3D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A5C008792A582A5E0087E3D6 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					A5C008B22A59C86E0087E3D6 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = A5C008792A582A5E0087E3D6;
+					};
+				};
+			};
+			buildConfigurationList = A5C008752A582A5E0087E3D6 /* Build configuration list for PBXProject "SummerPractice2023" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5C008712A582A5E0087E3D6;
+			productRefGroup = A5C0087B2A582A5E0087E3D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5C008792A582A5E0087E3D6 /* SummerPractice2023 */,
+				A5C008B22A59C86E0087E3D6 /* SummerPractice2023Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5C008782A582A5E0087E3D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C008BF2A5ACCCA0087E3D6 /* .gitignore in Resources */,
+				A5C008AB2A59C3A90087E3D6 /* file.json in Resources */,
+				A5C0088A2A582A5F0087E3D6 /* LaunchScreen.storyboard in Resources */,
+				A5C008872A582A5F0087E3D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5C008B12A59C86E0087E3D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FBED999EA1625C1A956A08F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SummerPractice2023-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		585AA66E7323662BAEF78C75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SummerPractice2023/Pods-SummerPractice2023-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SummerPractice2023/Pods-SummerPractice2023-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SummerPractice2023/Pods-SummerPractice2023-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5C008762A582A5E0087E3D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C008A92A59BA0F0087E3D6 /* DetailViewController.swift in Sources */,
+				A5C008982A582C0D0087E3D6 /* AbstractCoordinator.swift in Sources */,
+				A5C008962A582BE60087E3D6 /* AppCoordinator.swift in Sources */,
+				A5C008A62A585A760087E3D6 /* NewEventViewController.swift in Sources */,
+				A5C008822A582A5E0087E3D6 /* CalendarViewController.swift in Sources */,
+				A5C0087E2A582A5E0087E3D6 /* AppDelegate.swift in Sources */,
+				A5C0089B2A583AA60087E3D6 /* NetworkService.swift in Sources */,
+				A5C008802A582A5E0087E3D6 /* SceneDelegate.swift in Sources */,
+				A5C008A02A583C600087E3D6 /* EventModel.swift in Sources */,
+				A5C008A22A5855870087E3D6 /* DataManager.swift in Sources */,
+				A5C0089D2A583B0C0087E3D6 /* Parser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5C008AF2A59C86E0087E3D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C008B62A59C86E0087E3D6 /* SummerPractice2023Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5C008B82A59C86E0087E3D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5C008792A582A5E0087E3D6 /* SummerPractice2023 */;
+			targetProxy = A5C008B72A59C86E0087E3D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5C008882A582A5F0087E3D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5C008892A582A5F0087E3D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5C0088C2A582A5F0087E3D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5C0088D2A582A5F0087E3D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5C0088F2A582A5F0087E3D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1130ADC1597F4977332E7C9D /* Pods-SummerPractice2023.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SummerPractice2023/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bakarlan.SummerPractice2023;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5C008902A582A5F0087E3D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7647EEBEFB952C4CE8459408 /* Pods-SummerPractice2023.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SummerPractice2023/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bakarlan.SummerPractice2023;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5C008BA2A59C86E0087E3D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bakarlan.SummerPractice2023Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SummerPractice2023.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SummerPractice2023";
+			};
+			name = Debug;
+		};
+		A5C008BB2A59C86E0087E3D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bakarlan.SummerPractice2023Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SummerPractice2023.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SummerPractice2023";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5C008752A582A5E0087E3D6 /* Build configuration list for PBXProject "SummerPractice2023" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C0088C2A582A5F0087E3D6 /* Debug */,
+				A5C0088D2A582A5F0087E3D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5C0088E2A582A5F0087E3D6 /* Build configuration list for PBXNativeTarget "SummerPractice2023" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C0088F2A582A5F0087E3D6 /* Debug */,
+				A5C008902A582A5F0087E3D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5C008B92A59C86E0087E3D6 /* Build configuration list for PBXNativeTarget "SummerPractice2023Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C008BA2A59C86E0087E3D6 /* Debug */,
+				A5C008BB2A59C86E0087E3D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5C008722A582A5E0087E3D6 /* Project object */;
+}

@@ -100,7 +100,7 @@ class NewEventViewController: UIViewController {
     }
     
     @objc private func saveButtonAction() {
-        if finishDatePicker.date.timeIntervalSince1970 < startDatePicker.date.timeIntervalSince1970 {
+        if finishDatePicker.date.timeIntervalSince1970 <= startDatePicker.date.timeIntervalSince1970 {
             let alertController = UIAlertController(title: "Oops.. it seems you made a mistake",
                                                     message: "Finish date can't be less than start date",
                                                     preferredStyle: .alert)

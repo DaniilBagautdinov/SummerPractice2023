@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A5C0087E2A582A5E0087E3D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C0087D2A582A5E0087E3D6 /* AppDelegate.swift */; };
-		A5C008802A582A5E0087E3D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C0087F2A582A5E0087E3D6 /* SceneDelegate.swift */; };
 		A5C008822A582A5E0087E3D6 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C008812A582A5E0087E3D6 /* CalendarViewController.swift */; };
 		A5C008872A582A5F0087E3D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5C008862A582A5F0087E3D6 /* Assets.xcassets */; };
 		A5C0088A2A582A5F0087E3D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C008882A582A5F0087E3D6 /* LaunchScreen.storyboard */; };
@@ -42,7 +41,6 @@
 		7647EEBEFB952C4CE8459408 /* Pods-SummerPractice2023.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SummerPractice2023.release.xcconfig"; path = "Target Support Files/Pods-SummerPractice2023/Pods-SummerPractice2023.release.xcconfig"; sourceTree = "<group>"; };
 		A5C0087A2A582A5E0087E3D6 /* SummerPractice2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SummerPractice2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C0087D2A582A5E0087E3D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A5C0087F2A582A5E0087E3D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A5C008812A582A5E0087E3D6 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		A5C008862A582A5F0087E3D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5C008892A582A5F0087E3D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -128,7 +126,6 @@
 			isa = PBXGroup;
 			children = (
 				A5C0087D2A582A5E0087E3D6 /* AppDelegate.swift */,
-				A5C0087F2A582A5E0087E3D6 /* SceneDelegate.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -373,7 +370,6 @@
 				A5C008822A582A5E0087E3D6 /* CalendarViewController.swift in Sources */,
 				A5C0087E2A582A5E0087E3D6 /* AppDelegate.swift in Sources */,
 				A5C0089B2A583AA60087E3D6 /* NetworkService.swift in Sources */,
-				A5C008802A582A5E0087E3D6 /* SceneDelegate.swift in Sources */,
 				A5C008A02A583C600087E3D6 /* EventModel.swift in Sources */,
 				A5C008A22A5855870087E3D6 /* DataManager.swift in Sources */,
 				A5C0089D2A583B0C0087E3D6 /* Parser.swift in Sources */,
@@ -539,7 +535,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -568,7 +564,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -589,7 +585,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bakarlan.SummerPractice2023Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -607,7 +603,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bakarlan.SummerPractice2023Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
